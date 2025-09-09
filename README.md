@@ -24,7 +24,8 @@ A proposta é aplicar os **conceitos básicos de programação**, como variávei
 ---
 
 ## 📸 Prévia do Projeto
-<img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/2ca62bc8-af21-4c4a-b3fd-223d4220f56f"><img width="auto" height="400" alt="image" src="https://github.com/user-attachments/assets/e45aedc4-6333-49b1-9dff-172cfd53ea65" />
+<img src="./assets/previa nivel de heroi.png" alt="Prévia do projeto" width="auto" height="400"> <img src="./assets/previa nivel de heroi 2.png" alt="Prévia do projeto" width="auto" height="400">
+
 
 
 ---
@@ -61,8 +62,21 @@ classificador-nivel-heroi/
 
 ## 🌐 Como visualizar
 
-1. Abra o arquivo `index.html` diretamente no navegador.
-2. Ou utilize a extensão **Live Server** no VS Code para uma visualização dinâmica.
+Para visualizar o projeto rodando na web acesse esse link: https://ivailtonfernandes.github.io/Desafio-Classificador-de-nivel-de-Heroi/.
+
+---
+
+## 📂 Como acessar localmente
+Se você quiser clonar este repositório e rodar o projeto na sua máquina:
+
+```bash
+# Clone este repositório
+git clone https://github.com/IvailtonFernandes/Desafio-Classificador-de-nivel-de-Heroi.git
+
+# Acesse a pasta
+cd portfolio
+
+# Abra o arquivo index.html no navegador
 
 ---
 
