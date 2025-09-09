@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <title>Classificador de nível de Herói</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>
+          Classificador <br />
+          de nível de Herói
+        </h1>
+        <form>
+          <label for="name">Nome do herói:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ex.: John Doe"
+            required
+          />
+          <label for="xp">Experiência (XP) do herói:</label>
+          <input
+            type="number"
+            id="xp"
+            name="xp"
+            placeholder="Ex.: 1000"
+            required
+          />
+          <button id="btn-calculate-xp" type="button">Calcular</button>
+        </form>
+      </section>
+      <dialog id="level-modal">
+        <button id="btn-close-modal" type="button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M18 6L6 18"
+              stroke="#1C1C1E"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 6L18 18"
+              stroke="#1C1C1E"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <h3>
+          O herói de nome <span id="hero-name">{nome}</span> <br />está no nível
+        </h3>
+        <h2>{Nível}</h2>
+        <p>{Descrição do nível.}</p>
+      </dialog>
+    </main>
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
